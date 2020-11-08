@@ -10,12 +10,25 @@ This Application caters to the below requirement:
 File reads the URL and other Directory locations from a .env file.
 Code uses callbacks to wait for download to complete and then unzip and move.
 
+**Unit test Libraries Used**:
+Mocha: to test each Statements ,Branches, Functions and Lines.
+to run the test suite:
+* npm run test
+
+NYC: This library provides code coverage capability
+to check the code coverage:
+* npm run coverage
+Once the script is completely executed a .coverage folder will be generated.
+cd /.coverage/lcov-report
+and open the index.html in your preferred browser you will be able to see the complete status of code coverage in TDD.
+
+
 # How to run
 Create the following Directories:
 * DownloadedZip
 * ExtractedFiles
 
-Go to .env file and change the directory according to your local system and run the below command.
-
-**npm run start**
+Go to .env file and change the directory according to your local system and run the below commands.
+* **npm i**
+* **npm run start**
 
