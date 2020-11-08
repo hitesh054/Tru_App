@@ -1,0 +1,21 @@
+{
+  "name": "zipunzip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tru_app.js",
+  "scripts": {
+    "start": "node ./tru_app.js",
+    "test": "mocha --timeout 12000",
+    "coverage": "nyc --reporter=lcov --report-dir ./.coverage/ npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "extract-zip": "^2.0.1",
+    "request": "^2.88.2",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "nyc": "^15.1.0"
+  }
+}
